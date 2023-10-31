@@ -9,11 +9,11 @@ pin: false
 img_path: /assets/img/posts/algebra-lineal-eficiente-multiplicacion-matrices-strassen/
 image: strassen-post.webp
 ---
-In college, you've probably encountered linear algebra and learned about matrix multiplication. You may have implemented a matrix multiplication algorithm using nested for loops, which has a time complexity of $$O(n^3)$$. In this blog post, we'll explore the Strassen algorithm, an efficient method for multiplying large matrices.
+Durante tu tiempo en la universidad, es probable que hayas estudiado álgebra lineal y aprendido acerca de la multiplicación de matrices. Es posible que incluso hayas implementado un algoritmo de multiplicación de matrices utilizando bucles anidados, lo que conlleva una complejidad temporal de $$O(n^3)$$. En esta entrada de blog, exploraremos el algoritmo de Strassen, un método eficiente para multiplicar matrices de gran tamaño.
 
-## Traditional Matrix Multiplication
+## Multiplicación Tradicional de Matrices
 
-Matrix multiplication involves nested loops that iterate through the dimensions of two matrices. This results in a time complexity of $$O(n^3)$$, which can be computationally expensive for large matrices. Here's a Python implementation of traditional matrix multiplication:
+La multiplicación de matrices implica bucles anidados que iteran a través de las dimensiones de dos matrices. Esto resulta en una complejidad temporal de $$O(n^3)$$, lo que puede ser computacionalmente costoso para matrices grandes. Aquí tienes una implementación en Python de la multiplicación de matrices tradicional:
 
 ```python
 def mul_matrix(X, Y):
@@ -25,18 +25,18 @@ def mul_matrix(X, Y):
   return Z
 ```
 
-## The Strassen Algorithm
+## El Algoritmo de Strassen
 
-Volker Strassen devised a more efficient algorithm for multiplying large matrices, provided they are squared and have dimensions that are powers of two. The Strassen algorithm breaks down matrix multiplication into smaller subproblems, reducing the overall complexity.
+Volker Strassen ideó un algoritmo más eficiente para multiplicar matrices grandes, siempre y cuando sean matrices cuadradas y tengan dimensiones que sean potencias de dos. El algoritmo de Strassen descompone la multiplicación de matrices en subproblemas más pequeños, reduciendo así la complejidad general.
 
->For more information about the Strassen algorithm, check out [this](https://en.wikipedia.org/wiki/Strassen_algorithm) Wikipedia article.
+>Para obtener más información sobre el algoritmo de Strassen, puedes consultar [este artículo de Wikipedia](https://en.wikipedia.org/wiki/Strassen_algorithm).
 {: .prompt-info }
 
-### The Process
+### El Proceso
 
-Let $$X$$, $$Y$$ two squared matrices and $$Z$$ the product of those matrices. If $$X$$ and $$Y$$ do not have the shape $$2^n \times 2^n$$ (that is to say, their shape is not of power of two) will have to fill those empty spaces with zeros.
+Supongamos que tenemos dos matrices cuadradas, $$X$$ e $$Y$$, y que deseamos obtener su producto, $$Z$$. Si $$X$$ e $$Y$$ no tienen la forma $$2^n \times 2^n$$ (es decir, su forma no es una potencia de dos), debemos rellenar los espacios vacíos con ceros.
 
-Let’s start with chunks of the same size.
+Comencemos con fragmentos del mismo tamaño.
 
 $$
 X=\begin{pmatrix}
@@ -53,7 +53,7 @@ Z_{21} & Z_{22}
 \end{pmatrix}
 $$
 
-It is worth say that $$A$$, $$B$$, $$C$$, $$D$$, $$E$$, $$F$$, $$G$$, $$H$$ and $$Z_{ij}$$ follow the requirements of Strassen algorithm. Then, multiplying $$X$$ and $$Y$$ we get:
+Vale la pena mencionar que $$A$$, $$B$$, $$C$$, $$D$$, $$E$$, $$F$$, $$G$$, $$H$$ y $$Z_{ij}$$ siguen los requisitos del algoritmo de Strassen. Luego, al multiplicar $$X$$ e $$Y$$, obtenemos:
 
 $$
 Z_{11} = AE+BG
@@ -71,7 +71,7 @@ $$
 Z_{22} = CF+DH
 $$
 
-With this the number of multiplications does not reduce. But if we define the following matrices:
+Con esto, la cantidad de multiplicaciones no se reduce. Pero si definimos las siguientes matrices:
 
 $$
 P_{1} = A(F-H)
@@ -101,7 +101,7 @@ $$
 P_{7} = (A-C)(E+F)
 $$
 
-We can rewrite $$Z$$ as follows:
+Podemos reescribir $$Z$$ de la siguiente manera:
 
 $$
 Z=\begin{pmatrix}
@@ -110,13 +110,13 @@ P_{3} + P_{4} & P_{5}+P_{1}-P_{3}-P_{7}
 \end{pmatrix}
 $$
 
-This process should be repeated recursively until we get a $$2 \times 2$$ matrix.
+Este proceso debe repetirse de manera recursiva hasta obtener una matriz $$2 \times 2$$.
 
-### Python Implementation
+### Implementación en Python
 
-To understand better this process let's implement this algorithm in Python. We need auxiliary functions which allows us to divide the matrices and merge them.
+Para comprender mejor este proceso, implementemos este algoritmo en Python. Necesitaremos funciones auxiliares que nos permitan dividir las matrices y fusionarlas.
 
-#### Divide Matrices
+#### Dividir Matrices
 
 ```python
 def divide_matrix(A):
@@ -129,7 +129,7 @@ def divide_matrix(A):
   return (m_11, m_12, m_21, m_22)
 ```
 
-#### Merge Matrices
+#### Fusionar Matrices
 
 ```python
 def merge_matrix(matrix_11, matrix_12, matrix_21, matrix_22):
@@ -143,7 +143,7 @@ def merge_matrix(matrix_11, matrix_12, matrix_21, matrix_22):
   return matrix_total
 ```
 
-#### Add Matrices
+#### Sumar Matrices
 
 ```python
 def add_matrix(X, Y):
@@ -158,7 +158,7 @@ def add_matrix(X, Y):
   return S
 ```
 
-#### Subtract Matrices
+#### Restar Matrices
 
 ```python
 def sub_matrix(X, Y):
@@ -173,9 +173,9 @@ def sub_matrix(X, Y):
   return S
 ```
 
-#### Algorithm Implementation
+#### Implementación del Algoritmo
 
-Finally, we can implement the Strassen algorithm as explained before. Notice that it always use Strassen for multiplying the submatrices, so it is recursive.
+Finalmente, podemos implementar el algoritmo de Strassen como se explicó anteriormente. Ten en cuenta que siempre utiliza el algoritmo de Strassen para multiplicar las submatrices, por lo que es recursivo.
 
 ```python
 def strassen(X, Y):
@@ -201,7 +201,7 @@ def strassen(X, Y):
     return merge_matrix(Z11, Z12, Z21, Z22)
 ```
 
-You can test it like this:
+Puedes probarlo de la siguiente manera:
 
 ```python
 A = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]
@@ -209,11 +209,11 @@ B = [[1,1,1,1],[1,1,1,1],[1,1,1,1],[1,1,1,0]]
 
 print("Strassen")
 print(*strassen(A,B), sep='\n')
-print("\nClassic")
+print("\nClásico")
 print(*mul_matrix(A,B), sep='\n')
 ```
 
-**Output:**
+**Salida:**
 
 $$
 \begin{pmatrix}
@@ -236,11 +236,11 @@ $$
 \end{pmatrix}
 $$
 
-## Conclusion
+## Conclusión
 
-The upper bound of the classic method is $$O(n^3)$$. But for the Strassen algorithm it is $$O(n^{\log_{2}7})$$ or about $$O(n^{2.807})$$. Maybe you will say that the difference is just a few decimals, but with the next plot you will realize that the difference is important. The complexity of the classic version grows faster as $$n$$ increases.
+El límite superior del método clásico es $$O(n^3)$$. Sin embargo, para el algoritmo de Strassen, es $$O(n^{\log_{2}7})$$ o aproximadamente $$O(n^{2.807})$$. Puede que pienses que la diferencia es solo de algunos decimales, pero con el siguiente gráfico te darás cuenta de que la diferencia es significativa. La complejidad de la versión clásica crece más rápido a medida que $$n$$ aumenta.
 
-![Strassen vs Classic](strassen-vs-classic.webp)
-_Classic method Vs. Strassen comparison_
+![Strassen Vs. Clásico](strassen-vs-classic.webp)
+_Comparación entre el método clásico y Strassen_
 
-You can find the complete Python code for the Strassen algorithm [here](https://gist.github.com/crixodia/4e87ce94ce8c12e2006f63c1e534c2a0). Feel free to leave comments, questions, or follow me on social media for more content like this.
+Puedes encontrar el código completo en Python del algoritmo de Strassen [aquí](https://gist.github.com/crixodia/4e87ce94ce8c12e2006f63c1e534c2a0). No dudes en dejar comentarios, preguntas o seguirme en las redes sociales para obtener más contenido como este.
