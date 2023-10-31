@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   Blog de informática en el que hacemos que la tecnología sea divertida y accesible. Sumérgete en la programación, estructuras de datos, algoritmos y mucho más, ya seas un entusiasta de la tecnología o simplemente curioso. ¡Únete para disfrutar de tutoriales atractivos, aprendizaje práctico y emocionantes proyectos para alimentar tus aventuras tecnológicas!
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://crixodia.com"
+url: "https://crixodia.github.io"
 
 github:
   username: crixodia # change to your github username
