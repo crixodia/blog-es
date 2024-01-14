@@ -9,6 +9,6 @@ order: 4
   <meta http-equiv="refresh" content="0;url={{ urlToRedirect }}">
 </head>
 <body>
-  <p>Redireccionando a {{ urlToRedirect }}...</p>
+  <p>Redireccionando a <a href="{{ urlToRedirect }}">blog.crixodia.com</a></p>
 </body>
 </html>
