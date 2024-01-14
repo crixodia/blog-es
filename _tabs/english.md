@@ -3,7 +3,7 @@ title: English Version
 icon: fas fa-language
 order: 4
 ---
-{% assign urlToRedirect = "https://crixodia.com" %}
+{% assign urlToRedirect = "https://blog.crixodia.com" %}
 <html>
 <head>
   <meta http-equiv="refresh" content="0;url={{ urlToRedirect }}">
