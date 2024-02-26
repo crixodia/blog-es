@@ -92,7 +92,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: crixodia/crixodia.github.io
+    repo: crixodia/es
     repo_id: R_kgDOKnJ6ew
     category: General
     category_id: DIC_kwDOKnJ6e84Caj-C
@@ -186,10 +186,10 @@ exclude:
   - package*.json
 
 jekyll-archives:
-  enabled: [categorías, etiquetas]
+  enabled: [categories, tags]
   layouts:
     category: category
     tag: tag
   permalinks:
-    tag: /etiquetas/:name/
-    category: /categorias/:name/
+    tag: /tags/:name/
+    category: /categories/:name/
