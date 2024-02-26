@@ -1,7 +1,7 @@
 ---
 title: "Álgebra Lineal Hecha Eficiente: Multiplicación de Matrices Strassen"
 categories: [Algoritmos, Python]
-tags: [Ciencias de la Computación, Python, Complejidad Temporal, Strassen]
+tags: [ciencias de la computación, python, complejidad temporal, strassen]
 date: 2021-10-13 11:55:00 -0500
 math: true
 mermaid: false

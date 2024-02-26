@@ -1,7 +1,7 @@
 ---
 title: "El Algoritmo de Karatsuba en Python: Multiplicando Números Grandes de Manera Eficiente"
 categories: [Algoritmos, Python]
-tags: [Ciencias de la Computación, Python, Complejidad Temporal, Karatsuba]
+tags: [ciencias de la computación, python, complejidad temporal, karatsuba]
 date: 2021-12-20 11:55:00 -0500
 math: true
 mermaid: true

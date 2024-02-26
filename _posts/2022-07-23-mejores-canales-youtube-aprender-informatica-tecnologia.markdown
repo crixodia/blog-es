@@ -1,7 +1,7 @@
 ---
 title: "Los Mejores Canales de YouTube para Aprender Informática y Tecnología"
 categories: [Educación, YouTube]
-tags: [Ciencias de la Computación, YouTube, Educación, Recursos de Aprendizaje]
+tags: [ciencias de la computación, youTube, educación, recursos de aprendizaje]
 date: 2022-07-23 11:55:00 -0500
 math: false
 mermaid: false

@@ -1,7 +1,7 @@
 ---
 title: "Contando Particiones de Enteros: Explorando un Enfoque Recursivo"
 categories: [Algoritmos, Python]
-tags: [Python, Recursión, Complejidad Temporal, Teoría de Números]
+tags: [python, recursión, complejidad temporal, teoría de números]
 date: 2021-06-06 00:00:00 -0500
 math: false
 mermaid: false

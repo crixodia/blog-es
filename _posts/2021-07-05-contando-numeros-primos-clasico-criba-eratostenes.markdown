@@ -1,7 +1,7 @@
 ---
 title: "Contando Números Primos: Clásico vs. Criba de Eratóstenes"
 categories: [Algoritmos, Python]
-tags: [Python, Complejidad Temporal, Criba de Eratosthenes, Números Primos]
+tags: [python, complejidad temporal, criba de eratosthenes, números primos]
 date: 2021-07-05 00:00:00 -0500
 math: true
 mermaid: false

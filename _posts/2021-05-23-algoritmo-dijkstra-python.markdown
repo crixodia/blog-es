@@ -1,7 +1,7 @@
 ---
 title: "El Algoritmo de Dijkstra en Python"
 categories: [Algoritmos, Python]
-tags: [Python, Teoría de Grafos, Algoritmo de Dijkstra]
+tags: [python, teoría de grafos, algoritmo de dijkstra]
 date: 2021-05-23 11:55:00 -0500
 math: true
 mermaid: true

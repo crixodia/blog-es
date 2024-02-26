@@ -1,7 +1,7 @@
 ---
 title: "El Juego de la Vida de Conway: Desarrollando un Autómata Celular"
 categories: [Simulación, Java]
-tags: [Juego de la vida de Conway, Autómata Celular, Java, Desarrollo de escritorio]
+tags: [juego de la vida de conway, autómata celular, java, desarrollo de escritorio]
 date: 2021-05-16 15:14:00 -0500
 math: false
 mermaid: false

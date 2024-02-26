@@ -1,7 +1,7 @@
 ---
 title: "Árboles N-arios: Un Enfoque Práctico"
 categories: [Estructura de Datos, Java]
-tags: [Árboles n-arios, Java, Desarrollo de escritorio, Parsing]
+tags: [árboles n-arios, java, desarrollo de escritorio, parsing]
 date: 2021-05-09 15:14:00 -0500
 math: false
 mermaid: true
