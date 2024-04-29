@@ -10,7 +10,7 @@ img_path: /assets/img/posts/advent-of-code/2015/
 image: day-1-not-quite-lisp.webp
 ---
 
-Desde que descubrí [Advent of Code](https://adventofcode.com/2023/events), me he propuesto resolver todos sus acertijos para cada año. En esta serie de blogs, no solo proporcionaré las soluciones, sino también breves explicaciones con su código. Comenzando con el evento Advent of Code 2015, empecemos con el [Day 1: Not Quite Lisp](https://adventofcode.com/2015/day/1).
+Desde que descubrí [Advent of Code](https://adventofcode.com/2023/events), me he propuesto resolver todos sus acertijos para cada año. En esta serie de blogs, no solo proporcionaré las soluciones, sino también breves explicaciones con su código. Comenzando con el evento Advent of Code 2015, empecemos con [Day 1: Not Quite Lisp](https://adventofcode.com/2015/day/1).
 
 ## Manejando la entrada
 
