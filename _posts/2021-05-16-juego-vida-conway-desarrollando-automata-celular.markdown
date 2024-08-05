@@ -6,7 +6,7 @@ date: 2021-05-16 15:14:00 -0500
 math: false
 mermaid: false
 pin: false
-img_path: /assets/img/posts/juego-vida-conway-desarrollando-automata-celular/
+media_subpath: /assets/img/posts/juego-vida-conway-desarrollando-automata-celular/
 image: game-of-life-post.webp
 ---
 El Juego de la Vida de Conway, diseñado por John Horton Conway en 1970, es un cautivador autómata celular. Lo que lo hace verdaderamente intrigante es que es un juego de cero jugadores, lo que significa que su evolución está determinada únicamente por el estado inicial, sin necesidad de ninguna entrada una vez que comienza el juego.

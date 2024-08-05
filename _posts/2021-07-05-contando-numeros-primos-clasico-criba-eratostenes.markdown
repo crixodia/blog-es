@@ -6,7 +6,7 @@ date: 2021-07-05 00:00:00 -0500
 math: true
 mermaid: false
 pin: false
-img_path: /assets/img/posts/contando-numeros-primos-clasico-criba-eratostenes/
+media_subpath: /assets/img/posts/contando-numeros-primos-clasico-criba-eratostenes/
 image: erathostenes-post.webp
 ---
 Contar números primos es un problema fundamental en programación. Si bien para muchos la elección clásica es la primera opción, la eficiencia del algoritmo importa. En esta publicación de blog, exploraremos dos enfoques para resolver este problema y compararemos su rendimiento.

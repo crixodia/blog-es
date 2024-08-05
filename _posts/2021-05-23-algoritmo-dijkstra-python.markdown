@@ -6,7 +6,7 @@ date: 2021-05-23 11:55:00 -0500
 math: true
 mermaid: true
 pin: false
-img_path: /assets/img/posts/algoritmo-dijkstra-python/
+media_subpath: /assets/img/posts/algoritmo-dijkstra-python/
 image: python-dijkstra-post.webp
 ---
 Si estás estudiando ingeniería o ciencias de la computación, es probable que hayas encontrado la teoría de grafos, un campo fascinante con numerosas aplicaciones en estas disciplinas.

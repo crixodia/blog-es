@@ -6,7 +6,7 @@ date: 2021-06-06 00:00:00 -0500
 math: false
 mermaid: false
 pin: false
-img_path: /assets/img/posts/contando-particiones-enteros-enfoque-recursivo/
+media_subpath: /assets/img/posts/contando-particiones-enteros-enfoque-recursivo/
 image: partitions-post.webp
 ---
 Como ingeniero en ciernes, a menudo abordo desafíos de código diarios para mejorar mis habilidades. Disfruté de una racha ganadora hasta que me encontré con el siguiente problema intrigante.

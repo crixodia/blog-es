@@ -6,7 +6,7 @@ date: 2021-10-13 11:55:00 -0500
 math: true
 mermaid: false
 pin: false
-img_path: /assets/img/posts/algebra-lineal-eficiente-multiplicacion-matrices-strassen/
+media_subpath: /assets/img/posts/algebra-lineal-eficiente-multiplicacion-matrices-strassen/
 image: strassen-post.webp
 ---
 Durante tu tiempo en la universidad, es probable que hayas estudiado álgebra lineal y aprendido acerca de la multiplicación de matrices. Es posible que incluso hayas implementado un algoritmo de multiplicación de matrices utilizando bucles anidados, lo que conlleva una complejidad temporal de $$O(n^3)$$. En esta entrada de blog, exploraremos el algoritmo de Strassen, un método eficiente para multiplicar matrices de gran tamaño.

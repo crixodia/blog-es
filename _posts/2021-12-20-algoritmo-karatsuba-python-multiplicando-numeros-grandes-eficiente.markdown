@@ -6,7 +6,7 @@ date: 2021-12-20 11:55:00 -0500
 math: true
 mermaid: true
 pin: false
-img_path: /assets/img/posts/algoritmo-karatsuba-python-multiplicando-numeros-grandes-eficiente/
+media_subpath: /assets/img/posts/algoritmo-karatsuba-python-multiplicando-numeros-grandes-eficiente/
 image: karatsuba-post.webp
 ---
 La multiplicación de números es una operación matemática fundamental, y todos aprendemos varios métodos para hacerlo en la escuela. Sin embargo, cuando se trata de lidiar con números grandes, esta tarea aparentemente simple puede volverse computacionalmente costosa. En tales escenarios, necesitamos algoritmos más inteligentes para optimizar el proceso. El algoritmo de Anatoly Karatsuba ofrece una solución brillante que, aunque es compleja para los humanos, es increíblemente eficiente para las computadoras.

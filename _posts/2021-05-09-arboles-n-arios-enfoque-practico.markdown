@@ -6,7 +6,7 @@ date: 2021-05-09 15:14:00 -0500
 math: false
 mermaid: true
 pin: false
-img_path: /assets/img/posts/arboles-n-arios-enfoque-practico/
+media_subpath: /assets/img/posts/arboles-n-arios-enfoque-practico/
 image: n-ary-trees-post.webp
 ---
 A diferencia de los árboles binarios, que solo tienen dos nodos hijos, los árboles n-arios pueden tener cualquier cantidad de nodos hijos. En esta entrada, nos sumergiremos en el mundo de los árboles n-arios y exploraremos su aplicación en la gestión de árboles genealógicos.
