@@ -15,48 +15,48 @@ A continuación, comparto una selección de estos canales y un breve vistazo a l
 
 En este canal, tendrás la oportunidad de explorar el emocionante mundo de la inteligencia artificial, con un enfoque especial en la visión computacional. OMES ofrece una perspectiva única de este campo en constante evolución.
 
-{% include embed/youtube.html id='51J_bYYMO2k' %}
+<lite-youtube videoid="51J_bYYMO2k"></lite-youtube>
 
 ## [Derivando](https://www.youtube.com/@Derivando)
 
 Aunque no es exclusivamente un canal de ciencias de la computación, Derivando ofrece una serie de videos que exploran las matemáticas subyacentes en esta disciplina. Es una excelente manera de profundizar en los fundamentos matemáticos que impulsan la informática.
 
-{% include embed/youtube.html id='LM68IQvIo_E' %}
+<lite-youtube videoid="LM68IQvIo_E"></lite-youtube>
 
 ## [BitBoss](https://www.youtube.com/@BitBoss)
 
 BitBoss es un canal relativamente nuevo que se ha ganado la atención de muchos entusiastas de la informática. Aquí, encontrarás explicaciones concisas sobre una variedad de temas interesantes, desde programación orientada a objetos hasta algoritmos y estructuras de datos. Lo mejor de todo es que lo hace de una manera divertida y accesible.
 
-{% include embed/youtube.html id='swpAfyZFt-8' %}
+<lite-youtube videoid="swpAfyZFt-8"></lite-youtube>
 
 ## [BetaTech](https://www.youtube.com/@BettaTech)
 
 Si buscas contenido relacionado con las ciencias de la computación y experiencias laborales en tecnología, BetaTech es un canal que vale la pena explorar. Ofrece una visión práctica de lo que significa trabajar en el campo de la tecnología.
 
-{% include embed/youtube.html id='o-RE0qBGRRA' %}
+<lite-youtube videoid="o-RE0qBGRRA"></lite-youtube>
 
 ## [RingaTech](https://www.youtube.com/@RingaTech)
 
 RingaTech se centra en la inteligencia artificial, brindándote la oportunidad de aprender sobre la creación, evaluación e implementación de modelos de IA. Si deseas adentrarte en este emocionante campo, este canal es un recurso valioso.
 
-{% include embed/youtube.html id='njoOd9iV2Qo' %}
+<lite-youtube videoid="njoOd9iV2Qo"></lite-youtube>
 
 ## [Nate Gentile](https://www.youtube.com/@NateGentile7)
 
 Nate Gentile, aunque conocido principalmente por su enfoque en el modding, también ofrece una serie de videos que exploran la arquitectura de computadoras. Si alguna vez te has preguntado cómo funcionan las entrañas de las computadoras, este canal puede ofrecer algunas respuestas interesantes.
 
-{% include embed/youtube.html id='OZCEHXlHY4E' %}
+<lite-youtube videoid="OZCEHXlHY4E"></lite-youtube>
 
 ## [Dot CSV](https://www.youtube.com/@DotCSV)
 
 Dot CSV es posiblemente el canal más reconocido en el mundo de las ciencias de la computación en habla hispana. Su contenido abarca desde los conceptos más básicos de inteligencia artificial hasta los avances más sofisticados. Si estás buscando un recurso integral, este canal es un lugar excelente para comenzar.
 
-{% include embed/youtube.html id='xi94v_jl26U' %}
+<lite-youtube videoid="xi94v_jl26U"></lite-youtube>
 
 ## [Pelado Nerd](https://www.youtube.com/@PeladoNerd)
 
 Pelado Nerd se enfoca en la administración de sistemas y ofrece información sobre las tendencias de la industria y las herramientas que pueden impulsar tu carrera en este campo. Si estás interesado en la gestión de sistemas y el desarrollo profesional, este canal es una fuente valiosa de información.
 
-{% include embed/youtube.html id='0D6MOPyPq-c' %}
+<lite-youtube videoid="0D6MOPyPq-c"></lite-youtube>
 
 Estos son solo algunos de los canales que he encontrado extremadamente útiles en mi búsqueda de conocimiento en ciencias de la computación. Es posible que existan muchos otros canales que ofrezcan contenido valioso, así que te animo a compartir tus descubrimientos en los comentarios. El aprendizaje en línea está al alcance de todos, y YouTube es una de las plataformas que lo hace posible.
