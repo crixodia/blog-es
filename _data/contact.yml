@@ -22,13 +22,13 @@
   icon: "fab fa-tiktok"
   url: "https://www.tiktok.com/@crixodia" # Fill with your Tiktok homepage
 
-- type: twitch
-  icon: "fab fa-twitch"
-  url: "https://www.twitch.tv/crixodia" # Fill with your Twitch homepage
+#- type: twitch
+#  icon: "fab fa-twitch"
+#  url: "https://www.twitch.tv/crixodia" # Fill with your Twitch homepage
 
-- type: discord
-  icon: "fab fa-discord"
-  url: "https://discord.gg/zsqQWUSR" # Fill with your Discord homepage
+#- type: discord
+#  icon: "fab fa-discord"
+#  url: "https://discord.gg/zsqQWUSR" # Fill with your Discord homepage
 
 - type: rss
   icon: "fas fa-rss"
