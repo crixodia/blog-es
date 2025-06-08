@@ -124,11 +124,12 @@ comments:
     repo: crixodia/blog-es
     repo_id: R_kgDOKnJ6ew
     category: General
-    category_id: DIC_kwDOKnJ6e84Caj-C
-    mapping: # optional, default to 'pathname'
-    input_position: # optional, default to 'bottom'
+    data_category: Announcements
+    category_id: DIC_kwDOKnJ6e84Caj-B
+    mapping: pathname
+    input_position: bottom
     lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    reactions_enabled: true
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
